@@ -32,3 +32,21 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.terraform.lock.hcl*
+
+# JetBrains IDEs
+.idea/
+*.DS_Store*
+environments/dev/.terraform.lock.hcl
+.DS_Store
+.DS_Store
+environments/dev/.terraform-version
+environments/dev/.terraform.lock.hcl
+environments/dev/.terragrunt-version
+environments/dev/.terraform.lock.hcl
